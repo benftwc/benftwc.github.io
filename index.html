@@ -107,7 +107,9 @@
     code.js {
       color: #FFAD00;
     }
-
+    code pre {
+      text-align: left;
+    }
     .main {
       float: left;
       width: 100%;
@@ -403,65 +405,63 @@
           <h1>Skills</h1>
           <h2>Other than aquapony btw</h2>
           <code class="html">
-          {
-            "name": "cassinat/benjamin",
-            "description": "Hi mom !",
-            "profession": "Web developper"
-            "version": "1.33.7",
-            "type": "ninja",
-            "keywords": ["Ponys", "Goodies", "Awesome"],
-            "homepage": "http://benftwc.fr",
-            "license": "WTFPl Licence",
-           }
+            <pre>
+            {
+              "name": "cassinat/benjamin",
+              "description": "Hi mom !",
+              "profession": "Web developper"
+              "version": "1.33.7",
+              "type": "ninja",
+              "keywords": ["Ponys", "Goodies", "Awesome"],
+              "homepage": "http://benftwc.fr",
+              "license": "WTFPl Licence",
+             }
+             </pre>
             </code>
 
              <code class="js">
-             {
-              "Skills": [
-                  {
-                      "name": "PHP",
-                      "level": ".6",
-                      "homepage": "http://www.php.net"
-                  },
-                  {
-                      "name": "Drupal",
-                      "level": ".6",
-                      "homepage": "http://www.drupal.org"
-                  },
-                  {
-                      "name": "NodeJS",
-                      "level": ".5",
-                      "homepage": "http://www.nodejs.org"
-                  },
-                  {
-                      "name": "JavaScript",
-                      "coreLevel": ".5"
-                      "extends": [
-                      {
-                        "name": "jQurey",
-                        "level": ".6"
-                      },
-                      {
-                        "name": "CasperJS",
-                        "level": ".4"
-                      },
-                      {
-                        "name": "AngularJS",
-                        "level": ".3"
-                      }
-                      ]
-                  }
-              ],
-            }
+              <pre>
+               {
+                "Skills": [
+                    {
+                        "name": "PHP",
+                        "level": ".6",
+                        "homepage": "http://www.php.net"
+                    },
+                    {
+                        "name": "Drupal",
+                        "level": ".6",
+                        "homepage": "http://www.drupal.org"
+                    },
+                    {
+                        "name": "NodeJS",
+                        "level": ".5",
+                        "homepage": "http://www.nodejs.org"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "coreLevel": ".5"
+                        "extends": [
+                        {
+                          "name": "jQurey",
+                          "level": ".6"
+                        },
+                        {
+                          "name": "CasperJS",
+                          "level": ".4"
+                        },
+                        {
+                          "name": "AngularJS",
+                          "level": ".3"
+                        }
+                        ]
+                    }
+                ],
+              }
+            </pre>
           </code>
           </div>
       </section>
-      <script type="text/javascript">
-      jQuery.(function($) {
-        alert($('code'));
-        JSON.stringify(jsObj, null, 4);
-      });
-      </script>
         <section class="page3">
           <div class="page_container">
           <h1>Pretty Neat Eh?</h1>
