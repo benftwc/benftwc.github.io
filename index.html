@@ -290,6 +290,10 @@
       letter-spacing: -1px;
       color: white;
     }
+
+    .page3 > img {
+      cursor: pointer;
+    }
     .main section.page2 h2 {
       color: rgba(255,255,255,0.85);
       text-align: center;
@@ -486,7 +490,13 @@ var gifs = [
 
 $(function() {
   $("#picPage3").attr("src", gifs[getRandom((gifs.length-1), 0)]);
+
+  $('#picPage3').on('click', function() {
+    $("#picPage3").attr("src", gifs[getRandom((gifs.length-1), 0)]);
+  })
+
 })
+
 
   </script>
 
